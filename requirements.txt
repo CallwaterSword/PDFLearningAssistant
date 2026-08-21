@@ -1,0 +1,7 @@
+# 智能 PDF 学习助手运行依赖
+# Python 3.13 需额外装 audioop-lts（gradio/pydub 兼容），3.12 及以下可跳过
+hello-agents[all]==0.2.0
+gradio>=6.0
+python-dotenv
+markitdown[pdf]
+audioop-lts; python_version >= "3.13"
